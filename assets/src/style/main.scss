@@ -1,0 +1,21 @@
+
+//Swiper стили
+
+@import "../../../node_modules/swiper/swiper-bundle.css";
+@import "../../../node_modules/swiper/swiper";
+
+
+
+// Подключение своих SCSS файлов
+@import "variables"; //переменные
+@import "template/btn"; //кнопки
+@import "template/title"; //заголовки
+@import "template/text"; //текст
+@import "template/fonts"; //шрифты
+
+
+
+
+@import "my";
+@import "media";
+

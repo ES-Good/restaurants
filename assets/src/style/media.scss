@@ -1,0 +1,439 @@
+
+@media(max-width:1600px){
+
+}
+
+@media(max-width:1439px){
+    .s-top{
+        &__balloon{
+            &1{
+                max-width: 58px;
+                left: 27%;
+                top: -10px;
+            }
+    
+            &2{
+                max-width: 58px;
+                left: 70%;
+                top: 0;
+            }
+    
+            &3{
+                max-width: 74px;
+                left: 12%;
+                top: 15%;
+            }
+    
+            &4{
+                max-width: 62px;
+            }
+    
+            &5{
+                max-width: 44px;
+                left: 0;
+                top: 22%;
+            }
+    
+            &6{
+                max-width: 38px;
+                left: 18%;
+                top: 50%;
+            }
+    
+            &7{
+                max-width: 28px;
+                right: 5%;
+                bottom: 40%;
+            }
+    
+            &8{
+                max-width: 56px;
+                right: 20%;
+                top: 80%;
+            }
+    
+            &9{
+                max-width: 32px;
+                left: 0%;
+                bottom: 50%;
+            }
+    
+            &10{
+                max-width: 60px;
+                left: 4%;
+                bottom: 30%;
+            }
+    
+            &11{
+                max-width: 72px;
+                bottom: 20%;
+                right: 10%;
+            }
+    
+            &12{
+                max-width: 58px;
+                right: 10%;
+                bottom: 50%;
+            }
+    
+            &13{
+                max-width: 66px;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+@media(max-width:1199px){
+    .s-download{
+        margin-top: 10px;
+        &__main-img{
+            max-width: 160px;
+        }
+
+        &__link{
+            max-width: 117px;
+        }
+
+        &__img-box{
+            margin-top: 15px;
+        }
+        
+        &__info-block{
+            max-width: 350px;
+        }
+    }
+
+    .s-restaurants{
+        &__balloon{
+            display: none;
+        }
+
+        &__main-img{
+            max-width: 220px;
+        }
+
+        &__info-block{
+            margin-bottom: 60px;
+        }
+    }
+
+    .s-platform{
+        flex-wrap: wrap;
+
+        &__main-img{
+            max-width: none;
+        }
+    }
+
+    .s-delivery{
+        &__balloon{
+            &1{
+
+            }
+            &2{
+                display: none;
+            }
+            &3{
+                display: none;
+            }
+        }
+
+        &__main-img{
+            display: none;
+
+            &_mobile{
+                display: block;
+                margin-right: 30px;
+            }
+        }
+
+        &__inner{
+            align-items: center;
+            padding: 70px 0;
+        }
+    }
+
+    .title{
+        &_lvl-1{
+            font-size: $md-fz-lvl-1;
+        }
+        &_lvl-2{
+            font-size: $md-fz-lvl-2;
+        }
+
+        &_s-download{
+            margin-top: 0;
+        }
+
+        &_s-restaurants{
+            margin-top: 90px;
+        }
+
+        &_s-delivery{
+            margin-top: 0;
+        }
+
+        &__ico{
+            width: 20px;
+        }
+    }
+
+    .s-questions{
+        margin: 50px auto;
+        &__main-img{
+            display: none;
+        }
+        &__info-block{
+            max-width: none;
+        }
+    }
+
+    .s-reviews{
+        &__main-img{
+            display: none;
+        }
+
+        &__balloon,
+        &__leaves{
+            display: none;
+        }
+    }
+
+    .s-form{
+        &__form{
+            flex-direction: column;
+        }
+
+        &__inner{
+            width: 100%;
+        }
+
+        &__input{
+            max-width: none;
+            margin-bottom: 15px;
+        }
+
+        &__condition{
+            display: none;
+
+            &_mobile{
+                display: block;
+                font-size: 12px;
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .btn_orange{
+        max-width: none;
+    }
+
+    .s-reviews__info-block{
+        margin: 80px 0;
+    }
+}
+
+@media(max-width:992px){
+
+    .container{
+        max-width: 590px;
+    }
+
+    .btn{
+        &_log-in-mobile{
+            background-color: transparent;
+            max-width: none;
+            width: auto;
+            span{
+                display: none;
+            }
+
+            svg{
+                path{
+                    fill: #fff;
+                }
+            }
+        }
+    }
+
+    .nav{
+        &__box{
+    
+            &_btns{
+                max-width: 260px;
+            }
+        }
+
+        &__inner{
+            justify-content: flex-end;
+        }
+    }
+
+    .d-lg-none{
+        display: none;
+    }
+
+}
+
+@media(max-width:767px){
+
+    body{
+        font-size: 14px;
+    }
+
+    .content{
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        &_log-up-mobile{
+            background-color: transparent;
+            max-width: none;
+            width: auto;
+            span{
+                display: none;
+            }
+
+            svg{
+                path{
+                    fill: #fff;
+                }
+            }
+        }
+    }
+
+    .nav{
+        &__box{
+            &_btns{
+                max-width: 78px;
+            }
+        }
+    }
+}
+
+@media(max-width:576px){
+    .container{
+        padding: 30px 0;
+    }
+    .balloon{
+        display: none;
+    }
+
+    .transition{
+        display: none;
+    }
+
+    .title{
+        &_lvl-1{
+            font-size: $mob-fz-lvl-1;
+        }
+        &_lvl-2{
+            font-size: $mob-fz-lvl-2;
+        }
+    }
+
+    body{
+        font-size: 13px;
+    }
+
+    .nav{
+        position: relative;
+        z-index: 10;
+    }
+
+    .s-top{
+        &__balloon{
+            display: none;
+        }
+
+        &__container{
+            align-items: flex-end;
+            height: 356px;
+        }
+    }
+
+    .s-download{
+        &__main-img{
+            display: none;
+        }
+    }
+
+    .s-restaurants{
+        margin-top: 230px;
+        &__inner{
+            position: relative;
+        }
+        &__main-img{
+            display: none;
+
+            &_mobile{
+                display: block;
+            }
+        }
+
+        &__num-info{
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+
+    .title{
+        &_s-restaurants{
+            br{
+                display: block;
+            }
+        }
+        &__ico{
+            width: 12px;
+        }
+        &_s-delivery{
+            max-width: 145px;
+        }
+    }
+
+    .s-platform{
+        margin: 40px auto 0;
+
+        &__main-img{
+            max-width: 142px;
+            margin-top: 20px;
+        }
+    }
+
+    .s-delivery{
+        &__inner{
+            position: relative;
+        }
+
+        &__main-img_mobile{
+            position: absolute;
+            right: 0;
+            max-width: 126px;
+            top: -100px;
+        }
+    }
+
+    .s-questions{
+        &__question{
+            font-size: 13px;
+        }
+    }
+
+    .s-questions__btn-accordion_activ .s-questions__answer{
+        font-size: 13px;
+    }
+
+    .s-form{
+        box-shadow: none;
+        margin: 26px auto;
+    }
+
+    .footer{
+        .container{
+            padding: 0;
+        }
+    }
+}

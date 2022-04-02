@@ -1,0 +1,54 @@
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    &_lvl-1{
+        font-size: $fz-lvl-1;
+    }
+    &_lvl-2{
+        font-size: $fz-lvl-2;
+    }
+    &_lvl-3{
+        font-size: $fz-lvl-3;
+    }
+    &_lvl-4{
+        font-size: $fz-lvl-4;
+    }
+
+    &_s-download{
+        margin-bottom: 25px;
+    }
+
+    &_s-restaurants{
+        margin-top: 174px;
+        margin-bottom: 20px;
+        max-width: 440px;
+
+        br{
+            display: none;
+        }
+    }
+
+    &_s-platform{
+        max-width: 390px;
+    }
+
+    &_s-delivery{
+        margin-top: 200px;
+        margin-bottom: 30px;
+    }
+
+    &_s-questions{
+        max-width: 445px;
+        margin-bottom: 20px;
+    }
+
+    &_s-download{
+        margin-top: 90px;
+    }
+
+    &_s-form{
+        color: #414141;
+    }
+}
