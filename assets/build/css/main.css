@@ -639,7 +639,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0 10px;
     font-size: 0;
-    transition: font-size .5s;
+    transition: font-size .2s;
     line-height: 24px; }
   .s-questions__main-img {
     max-width: 520px;
